@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Plerdy - Website Audit Tool</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="Plerdy Logo" />
+      <span>Plerdy</span>
+    </div>
+    <div class="menu-center">
+      <a href="#">Pricing</a>
+      <a href="#">Use Cases</a>
+      <a href="#">Book a Demo</a>
+    </div>
+    <div class="menu-right">
+      <a href="#" class="sign-in">Sign in</a>
+      <a href="#" class="contact-btn">Contact Sales</a>
+    </div>
+  </header>
+
+  <div id="modal" class="modal">
+    <div class="modal-content modal-layout">
+      <div class="modal-left" img="images/man.png"></div>
+
+      <div class="modal-right">
+        <span class="close">&times;</span>
+        <h2>How to do a Website Audit to<br>Improve SEO & Conversions</h2>
+        <p>You will get an SMS with a link to the webinar</p>
+
+        <form id="contactForm">
+          <div class="input-group">
+            <label for="modalName">Name</label>
+            <input type="text" placeholder="Boris Johnson" class="input-field" id="modalName" />
+            <div class="error-message" id="nameError">Name is required</div>
+          </div>
+
+          <div class="input-group">
+            <label for="modalPhone">Label</label>
+            <div class="phone-input-group" id="phoneInputGroup">
+              <div class="country-select" id="countrySelect">
+                <img src="images/ua.png" alt="UA Flag" id="selectedCountryFlag">
+                <span id="selectedCountryCode">+380</span>
+                <i class="arrow">&#9662;</i>
+              </div>
+              <input type="text" class="phone-input" id="modalPhone" placeholder="ХХ ХХХ ХХХХ" />
+            </div>
+          </div>
+
+          <div class="country-dropdown" id="countryDropdown">
+            <div class="country-dropdown-item" data-code="+380" data-flag="ua.png">
+              <img src="images/ua.png" alt="UA"> <span>Ukraine (+380)</span>
+            </div>
+            <div class="country-dropdown-item" data-code="+1" data-flag="us.png">
+              <img src="images/us.png" alt="US"> <span>USA (+1)</span>
+            </div>
+            <div class="country-dropdown-item" data-code="+44" data-flag="uk.png">
+              <img src="images/uk.png" alt="UK"> <span>UK (+44)</span>
+            </div>
+          </div>
+
+          <div class="error-message" id="phoneError">Phone is required</div>
+
+          <div class="modal-buttons">
+            <button type="button">Support</button>
+            <button type="submit">Contact Sales</button>
+          </div>
+        </form>
+
+        <div class="agreement-block">
+          <div class="agreement-text">
+            <input type="checkbox" id="agreeCheck" />
+            <label for="agreeCheck">
+              By signing up, you agree to our
+              <a href="#">Conditions</a> and
+              <a href="#">Privacy Policy</a>
+            </label>
+          </div>
+          <div class="powered-by-inline">
+            <img src="images/logo.png" alt="Plerdy Icon" />
+            <span>Powered by Plerdy</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Website-Audit-Section animate-on-load animate-delay-1">
+    <div class="Website-Audit-Content">
+      <div class="text-content">
+        <h1>How to do a Website Audit to<br>Improve SEO & Conversions</h1>
+        <p class="intro-text">
+          Usability auditing with the Plerdy tool is a comprehensive expert assessment of your website based on a profound study of user behavior registered on it. Plerdy will provide you with crucial data based on which you will be able to run an efficient usability audit of your website, identify and fix SEO issues, and subsequently lead it to higher positions in search.
+        </p>
+        <p class="additional-text">
+          Thus, you'll compile a list of flaws in your website interface, navigation, and conversion path that can eventually affect its micro and macro conversion rates.
+        </p>
+        <a href="#" class="Plerdy-btn no-modal">Run the Plerdy tool</a>
+
+        <p class="trusted-text">Trusted by some of the world's largest enterprises</p>
+        <div class="company-logos">
+          <img src="images/softserve.png" class="softserve" alt="Softserve">
+          <img src="images/subaru.png" class="subaru" alt="Subaru">
+          <img src="images/anextour.png" class="anextour" alt="Anex Tour">
+          <img src="images/prom.png" class="prom" alt="Prom">
+          <img src="images/ukrposhta.png" class="ukrposhta" alt="Ukrposhta">
+        </div>
+      </div>
+
+      <div class="image-content">
+        <img src="images/women.png" class="women-main-img" alt="Woman">
+        <img src="images/graf1.png" class="graf1" alt="Graph 1">
+        <img src="images/graf2.png" class="graf2" alt="Graph 2">
+        <img src="images/graf3.png" class="graf3" alt="Graph 3">
+      </div>
+    </div>
+  </div>
+
+  <div class="reasons-section">
+    <div class="reasons-inner">
+      <div class="reasons-header">
+        <h2>6 Reasons <span>to Use Plerdy Data for a Website Usability Audit</span></h2>
+        <div class="slider-nav">
+          <div class="swiper-button-prev">
+            <img src="images/left.png" alt="Prev">
+          </div>
+          <div class="swiper-button-next">
+            <img src="images/right.png" alt="Next">
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper reasons-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            
+            <div class="reason-card" data-card="1">
+              <h3>
+                You will benefit from our SaaS<br>
+                marketing product
+              </h3>
+              <p>
+                Our team has developed a powerful tool<br> 
+                to audit website content – a heatmap that<br> 
+                features more than 100 reports for e-<br>
+                marketers and business owners.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reason-card" data-card="2">
+              <h3>
+                We have 10+ years of experience in<br>
+                digital 
+              </h3>
+              <p>
+                The Plerdy team has rich experience in<br> 
+                auditing, analyzing, and improving<br> 
+                eCommerce websites to boost their<br> 
+                conversion rates. So we are well aware of<br> 
+                all the weak spots of eCommerce<br> 
+                websites and know what data you need<br> 
+                to run a usability audit of your website.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reason-card" data-card="3">
+              <h3>
+                We enable generating hypotheses<br>
+                about low conversions
+              </h3>
+              <p>
+                Thanks to the data gathered with the<br> 
+                Plerdy heatmap about your website<br> 
+                visitors’ behavior, you can generate<br> 
+                hypotheses that potentially explain which<br> 
+                functional flaws and problems are<br> 
+                causing a low conversion on your website<br> 
+                and how.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reason-card" data-card="4">
+              <h3>
+                The analysis of dynamic<br>
+                elements of the website
+              </h3>
+              <p>
+                Some services disregard such an<br> 
+                important aspect as the clickability<br> 
+                analysis of the dynamic elements when<br> 
+                UX auditing, including drop-down menu,<br> 
+                pop-up, and slider. However, thanks to the<br> 
+                unique Plerdy auditing functionality, you<br> 
+                will receive this information.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reason-card" data-card="5">
+              <h3>
+                ...
+              </h3>
+              <p>
+                ...
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reason-card" data-card="6">
+              <h3>
+                ...
+              </h3>
+              <p>
+                ...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="conversion-cta">
+      <button class="conversion-button">Boost my website conversion</button>
+      <p class="conversion-text">
+        So, it’s high time for you to stop losing 99% of potential clients due to being unaware of your website users’ behavior patterns and needs.
+      </p>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
